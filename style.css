@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .2s ease-in-out;
+}
+
+/* font-family: 'Mulish', sans-serif; */
+body {
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 49px;
+}
+
+.nav-item:first-of-type {
+  margin-left: 0;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  color: #696871;
+}
+
+.nav-link:hover {
+  color: #19191b;
+}
+
+.nav-link.active {
+  color: #19191b;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5454d4;
+}
+
+.nav-button {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  background-color: #ff7143;
+  border-radius: 10px;
+  padding: 19px 60px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
