@@ -143,3 +143,66 @@ body {
 }
 
 /* END MAIN */
+
+/* START SUBSCRIPTION */
+.subscription,
+.metrix {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.subscription-texts {
+  margin-left: 160px;
+}
+
+.metrix-texts {
+  margin-left: 0;
+  margin-right: 160px;
+}
+
+.subscription-texts-title,
+.metrix-texts-title {
+  margin-bottom: 30px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -1.56316px;
+
+  color: #19191b;
+}
+
+.subscription-texts-description,
+.metrix-texts-description {
+  margin-bottom: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: -0.625263px;
+
+  color: #696871;
+}
+
+.subscription-link,
+.metrix-link {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+
+  color: #5454d4;
+}
+
+/* END SUBSCRIPTION */
