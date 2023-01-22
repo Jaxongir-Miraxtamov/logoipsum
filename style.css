@@ -144,7 +144,7 @@ body {
 
 /* END MAIN */
 
-/* START SUBSCRIPTION */
+/* START SUBSCRIPTION and METRIX */
 .subscription,
 .metrix {
   display: flex;
@@ -205,4 +205,4 @@ body {
   color: #5454d4;
 }
 
-/* END SUBSCRIPTION */
+/* END SUBSCRIPTION and METRIX*/
