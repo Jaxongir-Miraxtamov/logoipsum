@@ -159,7 +159,7 @@ body {
 
 .metrix-texts {
   margin-left: 0;
-  margin-right: 160px;
+  margin-right: 300px;
 }
 
 .subscription-texts-title,
@@ -170,10 +170,7 @@ body {
   font-weight: 700;
   font-size: 50px;
   line-height: 57px;
-  /* identical to box height, or 114% */
-
   letter-spacing: -1.56316px;
-
   color: #19191b;
 }
 
@@ -185,10 +182,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
-
   letter-spacing: -0.625263px;
-
   color: #696871;
 }
 
@@ -201,7 +195,6 @@ body {
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.531474px;
-
   color: #5454d4;
 }
 
@@ -226,11 +219,8 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height, or 150% */
-
   text-align: center;
   letter-spacing: -0.750316px;
-
   color: #19191b;
 }
 
@@ -240,11 +230,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   text-align: center;
   letter-spacing: -0.500211px;
-
   color: #696871;
 }
 /* END SERVICES  */
@@ -328,6 +315,27 @@ body {
   padding: 25px;
   background-color: #f8f8f8;
   border-radius: 10px;
+}
+
+.purchase-card:hover {
+  background: #ff7143;
+  color: white;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+  border-radius: 10px;
+  transform: scale(1.1);
+  transform: 0.2s;
+}
+
+.purchase-card:hover .card-about {
+  color: #fff;
+}
+
+.purchase-card:hover .card-price {
+  color: #fff;
+}
+
+.purchase-card:hover .card-definition {
+  color: #fff;
 }
 
 .card-definition {
