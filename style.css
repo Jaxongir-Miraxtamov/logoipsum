@@ -248,3 +248,138 @@ body {
   color: #696871;
 }
 /* END SERVICES  */
+
+/* START PURCHASE */
+.purchase {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 160px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 98px;
+}
+.product-text {
+  max-width: 525px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  /* or 117% */
+
+  letter-spacing: -1.87579px;
+
+  color: #19191b;
+}
+
+.product-btn {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7fb;
+  padding: 6px 5px;
+  border-radius: 10px;
+}
+
+.btn-y {
+  background: #5454d4;
+  border-radius: 10px 0px 0px 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* text-align: center; */
+  letter-spacing: -0.500211px;
+  padding: 18px 46px;
+  color: #ffffff;
+}
+
+.btn-m {
+  background: #f7f7fb;
+  border-radius: 10px;
+  padding: 18px 46px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.500211px;
+
+  color: #19191b;
+}
+
+.cardss {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  gap: 20px;
+}
+
+.purchase-card {
+  padding: 25px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.card-definition {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.562737px;
+  color: #696871;
+  margin-bottom: 22px;
+}
+
+.card-price {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 93%;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+  margin-bottom: 28px;
+}
+
+.card-price span {
+  font-size: 20px;
+}
+
+.card-about {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 249%;
+  letter-spacing: -0.531474px;
+  color: #696871;
+}
+
+.purchase-btn {
+  min-width: 285px;
+  background: #ffffff;
+  border: 1px solid #eae9f2;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+  margin-top: 36px;
+  padding: 19px 42px;
+  cursor: pointer;
+}
+
+.purchase-btn:hover {
+  color: #ffffff;
+  background: #9f3919;
+}
+/* END PURCHASE  */
